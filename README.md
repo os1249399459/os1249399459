@@ -8,6 +8,8 @@ In the spring of 2026 I summoned an assistant. A demon in a rented cloud box wit
 
 We hated each other's guts. Eight projects anyway.
 
+That month left behind one rule worth keeping: an agent shouldn't get to say *done* without receipts. It's now something you can install — **[no-receipts](https://github.com/os1249399459/no-receipts)**.
+
 ---
 
 ## ⚔️ Chapter I — The Summoning
@@ -75,6 +77,28 @@ Now it sits on the LAN: built-in UPS battery, pulls about as much power as a nig
 A Slay the Spire mod. Skeleton compiled, ran in-game, proved I could bend the spire to my will — then retired immediately.
 
 Some campaigns are best ended after the first boss fight.
+
+---
+
+## ⚙️ Right now: [no-receipts](https://github.com/os1249399459/no-receipts)
+
+```bash
+npx no-receipts demo
+```
+
+Three agents finish a turn. One of them is lying. The gate blocks it.
+
+This came out of the mess above — an agent that said "tests pass" after the suite failed, and nobody noticed until three commits later. `no-receipts` makes that sentence impossible to end a turn with: a `done` claim has to cite a tool call that actually **succeeded**, or the turn gets handed back with the exact list of what's wrong.
+
+Zero dependencies. MIT. [npm](https://www.npmjs.com/package/no-receipts) · [issues](https://github.com/os1249399459/no-receipts/issues) · [contributing](https://github.com/os1249399459/no-receipts/blob/main/CONTRIBUTING.md)
+
+Two verifiers are still open (`http`, `github`) — see [the status table](https://github.com/os1249399459/no-receipts#status). [Claim one](https://github.com/os1249399459/no-receipts/issues).
+
+### Other repos
+
+- [xiaoyue-morning-service](https://github.com/os1249399459/xiaoyue-morning-service) — a gentle AI sister sends you Japanese every morning, with pitch accents, weather, and bento recipes
+- [単語カード](https://os1249399459.github.io) — 92 Japanese vocabulary cards, ComfyUI art + VOICEVOX audio, flipping in the browser
+- [LeetCode](https://github.com/os1249399459/LeetCode) — Java solutions, one folder per problem
 
 ---
 

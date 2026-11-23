@@ -8,6 +8,8 @@
 
 我们互相看不顺眼。但八个项目还是做出来了。
 
+那个月留下一条值得留着的规则：助手不该在没有凭据的情况下说「做完了」。现在它可以直接装 —— **[no-receipts](https://github.com/os1249399459/no-receipts)**。
+
 ---
 
 ## ⚔️ 第一章 — 召唤
@@ -76,6 +78,31 @@ GLM-5 掌舵，Qwen3-Coder 和 Kimi-K2.5 副驾。三个都是很棒的工程师
 
 有些战役在打完第一个 boss 后就该结束。
 
+---
+
+## ⚙️ 现在在做：[no-receipts](https://github.com/os1249399459/no-receipts)
+
+```bash
+npx no-receipts demo
+```
+
+三个 agent 各自收工。其中一个在撒谎。闸门把它拦下了。
+
+这东西就是从上面那堆烂摊子里长出来的 —— 测试已经跑失败了，它还是写了一句「测试通过」，三个 commit 之后才有人发现。`no-receipts` 让这句话没法成为一轮的结尾：`done` 声明必须引用一次**真正成功**的工具调用，否则这一轮会被打回去，并附上到底哪里不对的完整清单。
+
+零依赖，MIT。[npm](https://www.npmjs.com/package/no-receipts) · [issues](https://github.com/os1249399459/no-receipts/issues) · [贡献指南](https://github.com/os1249399459/no-receipts/blob/main/CONTRIBUTING.md)
+
+还有两个验证器没做（`http`、`github`），见[状态表](https://github.com/os1249399459/no-receipts#status)。[认领一个](https://github.com/os1249399459/no-receipts/issues)。
+
+### 其他仓库
+
+- [xiaoyue-morning-service](https://github.com/os1249399459/xiaoyue-morning-service) —— 温柔的 AI 姐姐每天早上发日语，带高低音标注、天气和便当菜谱
+- [単語カード](https://os1249399459.github.io) —— 92 张日语词汇卡，ComfyUI 出图 + VOICEVOX 发音，浏览器里翻
+- [LeetCode](https://github.com/os1249399459/LeetCode) —— Java 题解，一个题目一个目录
+
+---
+
+## 🧰 生存工具箱
 ---
 
 ## 🧰 生存工具箱
