@@ -91,7 +91,9 @@ npx no-receipts demo
 
 零依赖，MIT。[npm](https://www.npmjs.com/package/no-receipts) · [issues](https://github.com/os1249399459/no-receipts/issues) · [贡献指南](https://github.com/os1249399459/no-receipts/blob/main/CONTRIBUTING.md)
 
-还有两个验证器没做（`http`、`github`），见[状态表](https://github.com/os1249399459/no-receipts#status)。[认领一个](https://github.com/os1249399459/no-receipts/issues)。
+用 DSH？同一条规则也有插件版 —— **[false-completion-bundle](https://github.com/os1249399459/false-completion-bundle)**：五道闸门、四种 MCP 验证器、每轮一行可 grep 的中止日志，现已收录进[开放插件市场](https://dshopen.org/)。独立实现而非包装：前者是任意宿主可用的零依赖 CLI，后者接进 DSH 的生命周期。
+
+想加 HTTP 或 GitHub 验证？[认领一个 issue](https://github.com/os1249399459/no-receipts/issues) —— 两个都只需改一个文件，参照约 80 行的 `CliVerifier`。Windows 可移植性由[外部贡献者完成](https://github.com/os1249399459/no-receipts/pull/4)。
 
 ### 其他仓库
 

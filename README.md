@@ -91,7 +91,9 @@ This came out of the mess above — an agent that said "tests pass" after the su
 
 Zero dependencies. MIT. [npm](https://www.npmjs.com/package/no-receipts) · [issues](https://github.com/os1249399459/no-receipts/issues) · [contributing](https://github.com/os1249399459/no-receipts/blob/main/CONTRIBUTING.md)
 
-Two verifiers are still open (`http`, `github`) — see [the status table](https://github.com/os1249399459/no-receipts#status). [Claim one](https://github.com/os1249399459/no-receipts/issues).
+DSH user? The same rule ships as a plugin — **[false-completion-bundle](https://github.com/os1249399459/false-completion-bundle)**: five gates, four MCP verifiers, one grep-able abort log per turn, now in the [Open Plugin Market](https://dshopen.org/). Separate implementation, not a wrapper: this one is a zero-dependency CLI for any host, that one plugs into DSH's lifecycle.
+
+Want to add HTTP or GitHub verification? [Claim an issue](https://github.com/os1249399459/no-receipts/issues) — both are scoped to one file, and `CliVerifier` is the reference at ~80 lines. Windows portability was shipped by [an outside contributor](https://github.com/os1249399459/no-receipts/pull/4).
 
 ### Other repos
 
